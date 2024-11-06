@@ -40,18 +40,17 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
-/* Add this rule for the logo h1 to change the size of the portfolio title */
+/* Logo Title */
 .logo-title {
-    font-size: 48px; /* Change this value as needed */
-    font-weight: bold; /* Optional: Makes it bold */
-    color: #fff; /* Change to white to match the navbar color */
-    animation: fadeIn 2s; /* Add animation */
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    animation: fadeIn 2s;
 }
 
-/* Animation for the logo */
 @keyframes fadeIn {
     from {
-        opacity: 2;
+        opacity: 0;
         transform: translateY(-10px);
     }
     to {
@@ -88,10 +87,10 @@ nav ul li a:hover {
 }
 
 .profile-pic {
-    width: 150px; /* Set the width of the profile picture */
-    height: 150px; /* Set the height of the profile picture */
-    border-radius: 50%; /* Make it circular */
-    margin-bottom: 1rem; /* Space below the image */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 /* Button Styles */
@@ -110,7 +109,7 @@ nav ul li a:hover {
 
 /* About Section */
 .about {
-    padding: 2rem 2rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -122,18 +121,6 @@ nav ul li a:hover {
 .about p {
     max-width: 600px;
     margin: 0 auto;
-}
-
-/* Adjust the margin-top value to move the button further down */
-.about .btn {
-    margin-top: 2rem; /* Increase this value to push the button down more */
-    background-color: #479aff; /* Example button color */
-    color: white;
-    padding: 0.7rem 1.5rem;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    display: inline-block; /* Ensures it behaves as a block element for margin */
 }
 
 /* Projects Section */
